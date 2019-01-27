@@ -1,9 +1,9 @@
 # projetCBD
 
-This project perform the minimal rank "Matrix Factorization" of a user-ratings matrix.
+This project perform the "Low-Rank-Matrix Factorization" of a user-ratings matrix for movies recommendations.
 The application is implemented in python and can be run :
 - with Ipython via the file "Projet-Optimisation.ipynb"
-- on a spark-cluster via the shell file "run-app-on-cluster.sh"
+- on a (simulated) spark-cluster via the shell file "run-app-on-cluster.sh"
 
 # Requirements for Ipython
 To run "Projet-Optimisation.ipynb", you need to install python with the following libraries
