@@ -25,3 +25,5 @@ Please note that "run-app-on-cluster.sh" runs the scripts which are located in "
 2. start.sh : to start the application
 3. stop.sh : to stop the application
 
+# Credit
+The spark-cluster implementation has been freely inspired by the following repository https://github.com/brunocfnba/docker-spark-cluster
