@@ -8,7 +8,7 @@ SRC6	= ./spark-cluster/spark-submit/Dockerfile
 
 send:
 	git add *
-	git commit -m "Added and tested pyspark-cluster"
+	git commit -m "Added script to build, launch and stop cluster"
 	git push
 
 xport:
