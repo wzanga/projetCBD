@@ -11,6 +11,7 @@ To run "Projet-Optimisation.ipynb", you need to install python with the followin
 - scipy
 - matpotlib
 - pyspark
+Please note that this application has only been tested with python 2.7.15 
 
 # Requirement for the Spark Cluster
 To run "run-app-on-cluster.sh", we use Docker to build images and containers for the master, the workers and the driver.
@@ -23,3 +24,4 @@ Please note that "run-app-on-cluster.sh" runs the scripts which are located in "
 1. build.sh : to build the images for the master, the workers and the driver. Look at the dockerfiles for more information on the configuration of these images
 2. start.sh : to start the application
 3. stop.sh : to stop the application
+
