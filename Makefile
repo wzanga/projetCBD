@@ -7,7 +7,7 @@ SRC5	= ./spark-cluster/spark-slave/Dockerfile
 SRC6	= ./spark-cluster/spark-submit/Dockerfile
 
 send:
-	git add $(GIT) $(SRC1) $(SRC2) $(SRC3) $(SRC4) $(SRC5) $(SRC6)
+	git add *
 	git commit -m "Added and tested pyspark-cluster"
 	git push
 
