@@ -11,6 +11,7 @@ To run "Projet-Optimisation.ipynb", you need to install python with the followin
 - scipy
 - matpotlib
 - pyspark
+
 Please note that this application has only been tested with python 2.7.15 
 
 # Requirement for the Spark Cluster
